@@ -1,9 +1,5 @@
 use bevy::prelude::*;
 
-pub fn hello_world() {
-    println!("Hello World!");
-}
-
 pub fn add_people(mut commands: Commands) {
     commands.spawn((Person, Name("Ben".to_string())));
 }

@@ -1,8 +1,8 @@
 use bevy::prelude::*;
 
-pub struct Scene3d_Plugin;
+pub struct Scene3dPlugin;
 
-impl Plugin for Scene3d_Plugin {
+impl Plugin for Scene3dPlugin {
     fn build(&self, app: &mut App) {
         app.add_systems(Startup, setup);
     }
